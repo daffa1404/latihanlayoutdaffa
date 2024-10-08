@@ -1,0 +1,110 @@
+        .container {
+            width: 800px;
+            margin: 0 auto;
+        }
+        .thumbnail {
+            background-color: white;
+            text-align: center;
+            padding: 10px;
+            width: 225px;
+            margin: 10px;
+            float: left;
+        }
+        .thumbnail img {
+            width: 100%;
+        }
+        .header {
+            background-color: pink;
+            min-height: 50px;
+            text-align: center;
+        }
+        .logo img {
+            width: 200px;
+        }
+        .menu ul {
+            padding: 0;
+        }
+        .menu ul li {
+            display: inline-block;
+            position: relative;
+            z-index: 1; /* add this line */
+        }
+        .menu ul li:hover ul.submenu {
+            display: block;
+            z-index: 2; /* add this line */
+        }
+        .menu ul li a {
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        .footer {
+            background-color: pink;
+            min-height: 50px;
+            padding: 20px;
+            text-align: center;
+        }
+        ul.submenu {
+            background-color: #eee;
+            border: 1px solid #eee;
+            text-align: left;
+            position: absolute;
+            top: 20px;
+            left: 0;
+            display: none;
+        }
+        ul.submenu li {
+            display: block;
+        }
+        ul.submenu li a {
+            display: block;
+            padding: 5px 10px;
+        }
+        .jumbotron {
+            font-family: 'raleway', sans-serif;
+            width: 100%;
+            padding: 80px 40px;
+            box-sizing: border-box;
+            text-align: center;
+            color: white;
+            background-color: #aaa;
+            background-image: url(https://th.bing.com/th/id/OIP.utresvZ3MKOCF082in4FCwHaEK?rs=1&pid=ImgDetMain);
+            background-size: cover;
+            position: relative;
+        }
+        .jumbotron1 {
+            font-family: 'raleway', sans-serif;
+            width: 100%;
+            padding: 80px 40px;
+            box-sizing: border-box;
+            text-align: center;
+            color: white;
+            background-color: black;
+            background-image: url(https://wallpaperaccess.com/full/1719718.gif);
+            background-size: cover;
+            position: relative;
+        }
+        h1 {
+            background: linear-gradient(90deg, #00ffff, #ff00c3);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            opacity: 0.4;
+        }
+        .jumbotron h2,.jumbotron p {
+            position: relative;
+        }
+        p {
+            color: black;
+            text-shadow: 0px 0px 10px whitesmoke,
+            0px 0px 10px whitesmoke,
+            0px 0px 10px whitesmoke,
+            0px 0px 10px whitesmoke;
+        }
